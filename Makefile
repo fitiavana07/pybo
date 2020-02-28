@@ -1,3 +1,5 @@
+all: venv requirements hooks
+
 venv:
 	python3 -m venv .venv
 
@@ -8,4 +10,4 @@ requirements:
 hooks:
 	.venv/bin/pre-commit install
 
-.PHONY: venv requirements hooks
+.PHONY: all venv requirements hooks
