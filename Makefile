@@ -19,4 +19,4 @@ coverage:
 	.venv/bin/coverage report
 
 
-.PHONY: all venv requirements hooks
+.PHONY: all venv requirements hooks test coverage
