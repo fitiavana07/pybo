@@ -19,4 +19,7 @@ Install `pre-commit` hooks::
 TODO
 ----
 
-* 
+* Upload to PyPI, allow use of CLI: `pybo init, pybo update,`
+* Logging configuration
+* setup.py
+* setup.cfg for pytest...
